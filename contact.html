@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>JigSure | Home</title>
+  <meta name="description" content="A site for all your jigsaw needs!">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css" integrity="sha384-Bfad6CLCknfcloXFOyFnlgtENryhrpZCe29RTifKEixXQZ38WheV+i/6YWSzkz3V" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/mobile.css" media="screen and (max-width: 500px)">
+</head>
+<body>
+  <header class="header">
+    <div class="container">
+      <a href="index.html" class="nav-button"><i class="fas fa-puzzle-piece fa-3x"></i></a>
+      <ul>
+        <li class="py-1"><a href="index.html">Home</a></li>
+        <li class="py-1"><a href="about.html">About Me</a></li>
+        <li class="py-1 current"><a href="contact.html">Contact Me</a></li>
+      </ul>
+    </div>
+  </header>
+  <div class="clr"></div>
+  <section id="contact-me">
+    <h2 class="text-primary py-2"><span class="text-primary-alt">Contact</span> Me</h2>
+    <form action="submit.php">
+      <div class="form-item">
+        <label for="name">Name</label>
+        <input type="text" name="name" id="name" class="py-0-5">
+      </div>
+      <div class="form-item">
+        <label for="email">Email</label>
+        <input type="email" name="email" id="email" class="py-0-5">
+      </div>
+      <div class="form-item">
+        <label for="message">Message</label>
+        <textarea type="text" name="message" id="message" class="py-0-5"></textarea>
+      </div>
+      <a class="btn">Submit</a>
+    </form>
+  </section>
+  <div class="clr"></div>
+  <section id="info">
+    <div class="box bg-light" id="copywriting">
+      <i class="fas fa-phone fa-3x py-1"></i>
+      <h3 class="py-1">Phone Number</h3>
+      <p>0492 184 245</p>
+    </div>
+    <div class="box bg-dark" id="copywriting">
+      <i class="fas fa-envelope fa-3x py-1"></i>
+      <h3 class="py-1">Email Address</h3>
+      <p>shanewrites@gmail.com</p>
+    </div>
+    <div class="box bg-light" id="copywriting">
+      <i class="fas fa-map-marker-alt fa-3x py-1"></i>
+      <h3 class="py-1">Address</h3>
+      <p>32 Albert Street, Brunswick, Melbourne, 3056, Australia</p>
+    </div>
+  </section>
+  <footer>
+    <p>JigSure &copy; 2020 All Rights Reserved </p>
+  </footer>
+</body>
+</html>
